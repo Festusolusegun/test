@@ -1,0 +1,20 @@
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby","Jim","Jim"]
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+print (friends[-1])
+print (friends[1:])
+print (friends[1:3])
+friends[2]= "Mike"
+print (friends)
+friends.extend(lucky_numbers)
+print (friends)
+friends.append("Creed")
+print (friends)
+friends.insert(1 ,"Kelly")
+print (friends)
+friends.pop ()
+print (friends)
+print (friends.index("Kevin"))
+print (friends.count("Jim"))
+friends.remove(4,8,15,16,23,24)
+friends.count("Jim")
+print (friends)
